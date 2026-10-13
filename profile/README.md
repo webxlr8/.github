@@ -3,6 +3,11 @@
 <a href="https://www.webxlr8.com">
   <img src="https://github.com/webxlr8.png" width="96" alt="WebXLR8 logo" />
 </a>
+<div align="center">
+
+<a href="https://www.webxlr8.com">
+  <img src="https://github.com/webxlr8.png" width="96" alt="WebXLR8 logo" />
+</a>
 
 # WebXLR8
 
@@ -19,58 +24,51 @@ We build the systems your business runs on, then stay on call for them.
 
 ---
 
-### 👋 Who we are
+### About us
 
-WebXLR8 is a product and engineering studio from Kochi, India. One team covering six disciplines, from cloud to brand, has delivered for **100+ brands worldwide** in transport, hospitality, retail, media and manufacturing.
+WebXLR8 is a technology company that designs, builds and runs digital platforms for businesses in **transport, hospitality, retail, media and manufacturing**. Cloud, engineering, design and growth sit under one roof, so a single team owns your product from first sketch to production support.
 
 <table>
 <tr>
-<td align="center"><b>100+</b><br/><sub>brands served</sub></td>
+<td align="center"><b>100+</b><br/><sub>brands served worldwide</sub></td>
 <td align="center"><b>99.9%</b><br/><sub>uptime SLA</sub></td>
 <td align="center"><b>98%</b><br/><sub>client retention</sub></td>
 <td align="center"><b>1M+</b><br/><sub>daily reach on platforms we run</sub></td>
 </tr>
 </table>
 
-### 🛠️ What we do
+**Trusted by** Kochi Metro Rail Limited · Applebee's · IHOP · Wonderla · Air Kerala · Risknox
 
-| | |
+### What we do
+
+| Capability | |
 |---|---|
 | ☁️ **Cloud & IT operations** | Infrastructure, DevOps, monitoring and on-call support |
-| 🛒 **Web platforms & commerce** | Fast websites, storefronts and custom web apps |
+| 🛒 **Web platforms & commerce** | High-performance websites, storefronts and custom web applications |
 | 📱 **Mobile apps** | Cross-platform apps for iOS and Android |
 | 🎨 **Brand & product design** | Visual identity, UI/UX and design systems |
 | 📈 **Technical SEO & growth** | Performance, search and marketing automation |
-| 🤖 **AI & workflow automation** | Agents, chatbots and automations that remove busywork |
+| 🤖 **AI & workflow automation** | AI agents, assistants and automations built into your operations |
 
-### 🚀 Our products
+We implement and support **AWS, Zoho, Razorpay and Shiprocket**.
 
-| Product | What it does |
+### Our products
+
+| Product | |
 |---|---|
-| 🌱 **[Open Carbon Index](https://opencarbonindex.org)** | Free, open tool that grades a website's carbon footprint (A+ to F) and gives it an embeddable badge |
-| ⚙️ **Opvello** | Operations software built for textile, rental and bakery businesses |
+| ⚙️ **Opvello** | Industry operations software for textile, rental and bakery businesses |
 | 📬 **VooReach** | Sales outreach and scheduling with LinkedIn enrichment and calendar-synced booking |
-| 🏗️ **BuildXLR8** | Fixed-price 30-day pilot: five working modules with full code handover |
-| 🖥️ **Everydayhost** | Managed hosting with a white-label reseller option and a 99.9% uptime SLA |
+| 🖥️ **Everydayhost** | Managed hosting with white-label reselling and a 99.9% uptime SLA |
+| 🏗️ **BuildXLR8** | Fixed-price 30-day build programme with full code handover |
+| 🌱 **[Open Carbon Index](https://opencarbonindex.org)** | Grades the carbon footprint of any website. Its [measurement engine](https://github.com/webxlr8/open-carbon-index-core) is open source so every grade can be independently verified |
 
-### 🌍 Open source
-
-| Repository | Description |
-|---|---|
-| [**open-carbon-index-core**](https://github.com/webxlr8/open-carbon-index-core) | The measurement core of Open Carbon Index: SWDM v4 carbon maths, scanning, grading and badges. Verified against co2.js. |
-| [**pitch-audit**](https://github.com/webxlr8/pitch-audit) | Claude Code skill: audit a prospect's website and get a short, visual pitch-deck PDF in your brand |
-| [**website-sales-audit**](https://github.com/webxlr8/website-sales-audit) | Agent skill that finds what is hurting a site's sales and builds a client-ready PDF report |
-| [**Chromalens**](https://github.com/webxlr8/Chromalens) | Browser extension: colour picker, palette extractor, contrast checker and WCAG audit (Chrome, Edge, Firefox) |
-
-Issues, ideas and pull requests are welcome.
-
-### 🧰 Our stack
+### Our stack
 
 <p>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" />
 <img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white" />
-<img src="https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=white" />
 <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=white" />
 <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white" />
 <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white" />
@@ -86,6 +84,6 @@ Issues, ideas and pull requests are welcome.
 
 **Have a project in mind?** [Talk to us →](https://www.webxlr8.com/contact/)
 
-<sub>WebXLR8 is a brand of YIB Global Technology Services LLP · DPIIT-recognised startup · Kochi, India</sub>
+<sub>WebXLR8 is a brand of YIB Global Technology Services LLP · DPIIT-recognised · Kochi, India</sub>
 
 </div>
