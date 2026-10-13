@@ -1,29 +1,3 @@
-<div align="center">
-
-<a href="https://www.webxlr8.com">
-  <img src="https://github.com/webxlr8.png" width="96" alt="WebXLR8 logo" />
-</a>
-<div align="center">
-
-<a href="https://www.webxlr8.com">
-  <img src="https://github.com/webxlr8.png" width="96" alt="WebXLR8 logo" />
-</a>
-
-# WebXLR8
-
-**We Design. We Engineer. We Accelerate.**
-
-We build the systems your business runs on, then stay on call for them.
-
-[![Website](https://img.shields.io/badge/webxlr8.com-FF6A00?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.webxlr8.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/webxlr8)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/webxlr8)
-[![Email](https://img.shields.io/badge/info@webxlr8.com-333333?style=for-the-badge&logo=gmail&logoColor=white)](mailto:info@webxlr8.com)
-
-</div>
-
----
-
 ### About us
 
 WebXLR8 is a technology company that designs, builds and runs digital platforms for businesses in **transport, hospitality, retail, media and manufacturing**. Cloud, engineering, design and growth sit under one roof, so a single team owns your product from first sketch to production support.
@@ -80,7 +54,7 @@ We implement and support **AWS, Zoho, Razorpay and Shiprocket**.
 
 <div align="center">
 
-**Have a project in mind?** [Talk to us →](https://www.webxlr8.com/contact/)
+**Have a project in mind?** [Talk to us →](https://www.webxlr8.com/contact/) · [LinkedIn](https://www.linkedin.com/company/webxlr8)
 
 <sub>WebXLR8 is a brand of YIB Global Technology Services LLP · DPIIT-recognised · Kochi, India</sub>
 
