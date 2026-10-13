@@ -37,8 +37,6 @@ WebXLR8 is a technology company that designs, builds and runs digital platforms 
 </tr>
 </table>
 
-**Trusted by** Kochi Metro Rail Limited · Applebee's · IHOP · Wonderla · Air Kerala · Risknox
-
 ### What we do
 
 | Capability | |
