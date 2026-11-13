@@ -1,0 +1,56 @@
+# Reusable workflow. Picks the home PC runner when it is online,
+# otherwise a GitHub-hosted runner.
+#
+# Lives in webxlr8/.github at .github/workflows/pick-runner.yml.
+# Needs the RUNNER_STATUS_TOKEN secret in the calling repo
+# (fine-grained PAT, org permission "Self-hosted runners" = Read-only).
+# Without the secret it always falls back to the hosted runner.
+
+name: Pick runner
+
+on:
+  workflow_call:
+    inputs:
+      label:
+        description: Label of the self-hosted runner
+        type: string
+        default: home-pc
+      fallback:
+        description: Runner to use when no self-hosted runner is online
+        type: string
+        default: ubuntu-latest
+    secrets:
+      RUNNER_STATUS_TOKEN:
+        required: false
+    outputs:
+      runner:
+        description: JSON value for runs-on
+        value: ${{ jobs.pick.outputs.runner }}
+
+jobs:
+  pick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    outputs:
+      runner: ${{ steps.pick.outputs.runner }}
+    steps:
+      - id: pick
+        env:
+          GH_TOKEN: ${{ secrets.RUNNER_STATUS_TOKEN }}
+          ORG: ${{ github.repository_owner }}
+          LABEL: ${{ inputs.label }}
+          FALLBACK: ${{ inputs.fallback }}
+        run: |
+          online=0
+          if [ -n "$GH_TOKEN" ]; then
+            online=$(gh api "orgs/$ORG/actions/runners?per_page=100" \
+              --jq "[.runners[] | select(.status==\"online\" and any(.labels[]; .name==\"$LABEL\"))] | length" \
+              || echo 0)
+          fi
+          if [ "$online" -gt 0 ]; then
+            echo "runner=[\"self-hosted\",\"$LABEL\"]" >> "$GITHUB_OUTPUT"
+            echo "::notice::Home runner online ($online). Using self-hosted."
+          else
+            echo "runner=\"$FALLBACK\"" >> "$GITHUB_OUTPUT"
+            echo "::notice::Home runner offline. Using $FALLBACK."
+          fi
